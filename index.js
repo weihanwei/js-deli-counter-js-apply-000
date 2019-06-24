@@ -13,7 +13,6 @@ function takeANumber(katzDeliLine,  str){
 
 function  currentLine(katzDeliLine){
   var str = "The line is currently: ";
-<<<<<<< HEAD
   if(katzDeliLine.length <1){
     
     return "The line is currently empty.";
