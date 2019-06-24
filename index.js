@@ -12,7 +12,7 @@ function takeANumber(katzDeliLine,  str){
 
 function takeANumber2(katzDeliLine){
   var index =0;
-  index +=1;
+  index +=1;//index = 1+index;
   katzDeliLine.push(index);
   return "Welcome,You are number "+index ;
 }
