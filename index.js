@@ -14,7 +14,7 @@ function takeANumber2(katzDeliLine){
   var index =0;
   index +=1;
   katzDeliLine.push(index);
-  return "Welcome, "+str+". You are number "+index +" in line.";
+  return "Welcome,You are number "+index +" in line.";
 }
 
 
