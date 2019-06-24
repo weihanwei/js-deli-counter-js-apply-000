@@ -13,6 +13,7 @@ function takeANumber(katzDeliLine,  str){
 
 function  currentLine(katzDeliLine){
   var str = "The line is currently: ";
+<<<<<<< HEAD
   if(katzDeliLine.length <1){
     
     return "The line is currently empty.";
@@ -24,10 +25,19 @@ function  currentLine(katzDeliLine){
   }
   str = str + inStr;
   return str.substring(0,str.length-2); 
+=======
+  
+  for(var a = 0;a<katzDeliLine.length;a++){
+    var index = a+1;
+    str = st+index+". "+katzDeliLine[a]+",";
+  }
+  return str.substring(0,katzDeliLine.length+1); 
+>>>>>>> f9cd14cb7a1908536a834fa5331f4b567c359d54
 
 }
  
 function nowServing(katzDeliLine){
+<<<<<<< HEAD
   var index = katzDeliLine.length;
    var str = katzDeliLine[0];
    if(index >0){
@@ -40,3 +50,22 @@ function nowServing(katzDeliLine){
   
 }
  
+=======
+ var str = katzDeliLine[0];
+ if(str == ""){
+   return 
+ }
+ return katzDeliLine[0];
+  
+}
+ 
+currentLine(katzDeliLine); // "The line is currently: 1. Grace, 2. Kent"
+ 
+takeANumber(katzDeliLine, "Matz"); // "Welcome, Matz. You are number 1 in li."
+ 
+currentLine(katzDeliLine); // "The line is currently: 1. Grace, 2. Kent, Matz"
+ 
+nowServing(katzDeliLine); // "Currently serving Grace."
+ 
+currentLine(katzDeliLine); // "The line is currently: 1. Kent, 2. Matz"
+>>>>>>> f9cd14cb7a1908536a834fa5331f4b567c359d54
