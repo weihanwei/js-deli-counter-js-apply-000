@@ -24,7 +24,7 @@ function  currentLine(katzDeliLine){
   }
   str = str + inStr;
   return str.substring(0,str.length-2); 
-=======
+
   
   for(var a = 0;a<katzDeliLine.length;a++){
     var index = a+1;
