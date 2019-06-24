@@ -10,6 +10,14 @@ function takeANumber(katzDeliLine,  str){
   
 }
 
+function takeANumber2(katzDeliLine){
+  var index =0;
+  index +=1;
+  katzDeliLine.push(index);
+  return "Welcome, "+str+". You are number "+index +" in line.";
+}
+
+
 
 function  currentLine(katzDeliLine){
   var str = "The line is currently: ";
